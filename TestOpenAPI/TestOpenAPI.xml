@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestOpenAPI</name>
+    </assembly>
+    <members>
+        <member name="T:TestOpenAPI.AuthorizePaymentBody">
+            <summary>
+            Authorize payment.
+            </summary>
+        </member>
+        <member name="P:TestOpenAPI.AuthorizePaymentBody.Amount">
+            <summary>
+            Order amount.
+            </summary>
+        </member>
+        <member name="M:TestOpenAPI.Controllers.TestController.AuthorizePayment(TestOpenAPI.AuthorizePaymentBody)">
+            <summary>
+            Authorize payment.
+            </summary>
+            <param name="checkout">The checkout.</param>
+            <returns>Returns result.</returns>
+        </member>
+        <member name="T:TestOpenAPI.PaymentErrorCode">
+            <summary>
+            Error code.
+            </summary>
+        </member>
+        <member name="F:TestOpenAPI.PaymentErrorCode.NoError">
+            <summary>
+            The no error
+            </summary>
+        </member>
+        <member name="F:TestOpenAPI.PaymentErrorCode.TypeMissMatch">
+            <summary>
+            The type miss match
+            </summary>
+        </member>
+        <member name="F:TestOpenAPI.PaymentErrorCode.Unexpected">
+            <summary>
+            The unexpected
+            </summary>
+        </member>
+        <member name="T:TestOpenAPI.WebshopAuthorizePaymentResponse">
+            <summary>
+            Authorize payment response.
+            </summary>
+        </member>
+        <member name="P:TestOpenAPI.WebshopAuthorizePaymentResponse.ErrorCode">
+            <summary>
+            Error code.
+            </summary>
+        </member>
+    </members>
+</doc>
